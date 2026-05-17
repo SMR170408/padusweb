@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="id">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Paduan Suara 31</title>
+    
+    <!-- Link Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Menghubungkan ke File CSS -->
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+
+    <!-- 1. TAMBAHKAN OVERLAY "TAP TO ENTER" DI SINI (Paling Atas) -->
+    <!-- onclick="enterSite()" memastikan musik menyala saat layar disentuh -->
+    <div id="enter-overlay" class="enter-overlay" onclick="enterSite()">
+        <div class="enter-content">
+            <h1 class="enter-title">PADUAN SUARA 31</h1>
+            <p class="enter-subtitle">Tap Screen to Enter</p>
+            <div class="enter-indicator">▼</div>
+        </div>
+    </div>
+    <!-- AKHIR OVERLAY -->
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Paduan Suara 31</a>
+                <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">
+                    <div class="menu-icon"></div>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#intro" onclick="toggleMenu()">Tentang</a></li>
+                    <li><a href="#gallery" onclick="toggleMenu()">Galeri</a></li>
+                    <li><a href="#kepengurusan" onclick="toggleMenu()">Pengurus</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1. HERO SECTION -->
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="assets/img/background.jpg" alt="Background">
+            </div>
+            <div class="hero-content">
+                <span class="hero-overline">SMAN 2 Garut</span>
+                <h1>Harmoni Hitam Putih</h1>
+            </div>
+        </section>
+
+        <!-- 2. TENTANG SECTION -->
+        <section id="intro" class="container">
+            <h2>Prakata Angkatan 31</h2>
+            <p>
+                Paduan Suara SMAN 2 Garut Angkatan 31 merupakan representasi dari kolaborasi, disiplin, dan rasa cinta terhadap seni olah vokal. Terdiri dari talenta-talenta muda yang berdedikasi.
+            </p>
+            <p>
+                Angkatan 31 hadir bukan hanya sebagai kumpulan suara, melainkan sebagai satu organisme yang bernafas dalam irama yang sama.
+            </p>
+        </section>
+
+        <!-- 3. GALERI SECTION -->
+        <section id="gallery" class="gallery container">
+            <div class="gallery-header">
+                <h2>Arsip Visual</h2>
+                <p style="color: var(--text-muted);">Momen terbaik kami</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Item 1 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/1.jpeg" alt="Latihan">
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/2.jpeg" alt="Panggung">
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/3.jpg" alt="Fokus">
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/4.jpg" alt="Direktur">
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/5.jpg" alt="Panggung">
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/6.jpeg" alt="Konser">
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/7.jpg" alt="Rehat">
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/8.jpg" alt="Lomba">
+                    </div>
+                </div>
+
+                <!-- Item 9 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/9.jpg" alt="Juara">
+                    </div>
+                </div>
+
+                <!-- Item 10 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/10.jpg" alt="Bersama">
+                    </div>
+                </div>
+
+                <!-- Item 11 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/11.jpg" alt="Fun">
+                    </div>
+                </div>
+
+                <!-- Item 12 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/21.JPG" alt="Menunggu">
+                    </div>
+                </div>
+
+                <!-- Item 13 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/13.jpg" alt="Soundcheck">
+                    </div>
+                </div>
+
+                <!-- Item 14 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/14.jpg" alt="Pemanasan">
+                    </div>
+                </div>
+
+                <!-- Item 15 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/15.jpg" alt="Diskusi">
+                    </div>
+                </div>
+
+                <!-- Item 16 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/22.JPG" alt="Partitur">
+                    </div>
+                </div>
+
+                <!-- Item 17 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/17.jpg" alt="Makan">
+                    </div>
+                </div>
+
+                <!-- Item 18 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/18.jpg" alt="Perjalanan">
+                    </div>
+                </div>
+
+                <!-- Item 19 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/19.jpg" alt="Dekorasi">
+                    </div>
+                </div>
+
+                <!-- Item 20 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/20.jpg" alt="Penonton">
+                    </div>
+                </div>
+
+                <!-- Item 21 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/bareng3.jpeg" alt="Upacara">
+                    </div>
+                </div>
+
+                <!-- Item 22 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/bareng 2.jpeg" alt="Sesi Foto">
+                    </div>
+                </div>
+
+                <!-- Item 23 -->
+                <div class="photo-card">
+                    <div class="photo-wrapper">
+                        <img src="assets/img/Galeri/bareng1.jpeg" alt="Penutupan">
+                    </div>
+                </div>
+
+                <!-- Tombol More -->
+                <div style="text-align: center; margin-top: 50px;">
+                    <button id="btn-more" class="btn-more">Tampilkan Lebih Banyak</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SECTION KEpengurusan -->
+        <section id="kepengurusan" class="kepengurusan">
+            <div class="container">
+                <h2 class="section-title-center">Struktur Kepengurusan</h2>
+                
+                <div class="members-grid">
+                    <!-- Member 1 -->
+                    <div class="member-row">
+                        <div class="member-photo">
+                            <img src="assets/img/BPH/arul.jpg" alt="Ketua">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Syahrul Miftah R</h3>
+                            <span class="member-role">Ketua Umum Padus 31</span>
+                        </div>
+                    </div>
+
+                    <!-- Member 2 -->
+                    <div class="member-row">
+                        <div class="member-photo">
+                            <img src="assets/img/BPH/ninong.jpg" alt="Wakil Ketua">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Rd.Rhayna Reksa N</h3>
+                            <span class="member-role">Wakil Ketua Padus 31</span>
+                        </div>
+                    </div>
+
+                    <!-- Member 3 -->
+                    <div class="member-row">
+                        <div class="member-photo">
+                            <img src="assets/img/BPH/nashwa.jpg" alt="Sekretaris">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Nashwa Shayla I</h3>
+                            <span class="member-role">Sekretaris Padus 31</span>
+                        </div>
+                    </div>
+
+                    <!-- Member 4 -->
+                    <div class="member-row">
+                        <div class="member-photo">
+                            <img src="assets/img/BPH/salman.jpg" alt="Bendahara">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">M.Salman Faris</h3>
+                            <span class="member-role">Wakil Sekretaris Padus 31</span>
+                        </div>
+                    </div>
+
+                    <!-- Member 5 -->
+                    <div class="member-row">
+                        <div class="member-photo">
+                            <img src="assets/img/BPH/saskia.jpg" alt="Soprano">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Saskia Nova Erina</h3>
+                            <span class="member-role">Bendahara Padus 31</span>
+                        </div>
+                    </div>
+
+                    <!-- Member 6 -->
+                    <div class="member-row">
+                        <div class="member-photo">
+                            <img src="assets/img/BPH/rifa.jpg" alt="Bass">
+                        </div>
+                        <div class="member-info">
+                            <h3 class="member-name">Rifa Mohammad R</h3>
+                            <span class="member-role">Wakil Bendahara Padus 31</span>
+                        </div>
+
+                        <div class="bph-message">
+                    <h3 class="bph-title">Prakata BPH</h3>
+                    <p class="bph-text">
+                        “Terima kasih sudah menjadi anggota yang loyal, disiplin, dan selalu mendukung tim dengan sepenuh hati.”
+“Kalian bukan hanya anggota, tetapi juga bagian penting yang membuat organisasi ini menjadi lebih baik.”
+“Apresiasi setinggi-tingginya untuk dedikasi, kerja sama, dan sikap baik yang selalu kamu tunjukkan.”
+“Terima kasih karena selalu menjaga kekompakan dan memberikan energi positif kepada seluruh anggota.”
+                    </p>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">PADUAN SUARA 31</div>
+            <p class="footer-text">SMAN 2 GARUT • Angkatan 31</p>
+            <p class="footer-text"> By SMR PRODUCTION</p>
+        </div>
+
+        <div class="qr-container">
+                <img id="website-qr" src="" alt="QR Code Website">
+                <p class="qr-caption">Scan to Visit</p>
+            </div>
+    </footer>
+
+    <!-- Player Musik (Satu saja) -->
+    <audio id="bg-music" loop>
+        <source src="assets/mp3/background-music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <!-- Tombol Kontrol Musik -->
+    <div id="music-btn" class="music-control">
+        <svg class="icon-play" viewBox="0 0 24 24" fill="white">
+            <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg class="icon-pause" style="display:none;" viewBox="0 0 24 24" fill="white">
+            <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+        </svg>
+    </div>
+
+    <!-- Menghubungkan ke File JS -->
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
